@@ -1,24 +1,11 @@
 name: Pubish GPR
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - main
+      - 'release/**'
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Set node version to v16
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.1
-      - run: pnpm install
-
   publish-gpr:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
