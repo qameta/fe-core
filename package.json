@@ -1,0 +1,31 @@
+{
+  "name": "@qameta/fe-core",
+  "version": "0.1.0",
+  "files": [
+    "src"
+  ],
+  "exports": {
+    "./prettier-config": "./src/prettier/index.js",
+    "./eslint-config": "./src/eslint-config/index.js",
+    "./babel-config": "./src/babel/index.js"
+  },
+  "description": "Qameta frontend shared configs",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qameta/fe-core.git"
+  },
+  "keywords": [
+    "eslint",
+    "tsconfig",
+    "stylelint",
+    "jest-config",
+    "babel"
+  ],
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "author": "Vladimir Semyonov",
+  "license": "proprietary",
+  "peerDependencies": {},
+  "devDependencies": {}
+}
