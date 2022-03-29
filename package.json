@@ -1,0 +1,24 @@
+{
+  "name": "@qameta/fe-core",
+  "version": "0.1.0",
+  "files": [
+    "src"
+  ],
+  "description": "Qameta frontend shared configs monorepo",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qameta/fe-core.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "author": "Vladimir Semyonov",
+  "bugs": {
+    "url": "https://github.com/qameta/fe-core/issues"
+  },
+  "homepage": "https://github.com/qameta/fe-core#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
+}
