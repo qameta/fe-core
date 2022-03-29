@@ -17,6 +17,6 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
       - run: pnpm install
-      - run: pnpm publish
+      - run: pnpm publish -r
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
