@@ -4,28 +4,21 @@
   "files": [
     "src"
   ],
-  "exports": {
-    "./prettier-config": "./src/prettier/index.js",
-    "./eslint-config": "./src/eslint-config/index.js",
-    "./babel-config": "./src/babel/index.js"
-  },
-  "description": "Qameta frontend shared configs",
+  "description": "Qameta frontend shared configs monorepo",
   "repository": {
     "type": "git",
-    "url": "git@github.com:qameta/fe-core.git"
+    "url": "git+ssh://git@github.com/qameta/fe-core.git"
   },
-  "keywords": [
-    "eslint",
-    "tsconfig",
-    "stylelint",
-    "jest-config",
-    "babel"
-  ],
   "scripts": {
     "test": "echo \"no tests\""
   },
   "author": "Vladimir Semyonov",
-  "license": "proprietary",
-  "peerDependencies": {},
-  "devDependencies": {}
+  "bugs": {
+    "url": "https://github.com/qameta/fe-core/issues"
+  },
+  "homepage": "https://github.com/qameta/fe-core#readme",
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
 }

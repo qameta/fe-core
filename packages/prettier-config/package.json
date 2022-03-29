@@ -1,0 +1,12 @@
+{
+  "name": "@qameta/prettier-config",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Semyonov",
+  "license": "ISC",
+  "repository":"https://github.com/qameta/fe-core"
+}
