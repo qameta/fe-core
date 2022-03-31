@@ -2,7 +2,7 @@ name: Pubish GPR
 
 on:
   release:
-    types: [created]
+    types: [published]
 
 jobs:
   publish-gpr:
