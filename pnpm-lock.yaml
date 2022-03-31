@@ -3,7 +3,20 @@ lockfileVersion: 5.3
 importers:
 
   .:
-    specifiers: {}
+    specifiers:
+      '@qameta/eslint-config': workspace:*
+      '@qameta/prettier-config': workspace:*
+      '@qameta/tsconfig': workspace:*
+      '@rushstack/eslint-patch': ^1.1.1
+      eslint: ^7.17.0
+      typescript: ^4.3.5
+    devDependencies:
+      '@qameta/eslint-config': link:packages/eslint-config
+      '@qameta/prettier-config': link:packages/prettier-config
+      '@qameta/tsconfig': link:packages/tsconfig
+      '@rushstack/eslint-patch': 1.1.1
+      eslint: 7.32.0
+      typescript: 4.6.3
 
   packages/babel-config:
     specifiers:
@@ -517,6 +530,10 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: false
+
+  /@rushstack/eslint-patch/1.1.1:
+    resolution: {integrity: sha512-BUyKJGdDWqvWC5GEhyOiUrGNi9iJUr4CU0O2WxJL6QJhHeeA/NVBalH+FeK0r/x/W0rPymXt5s78TDS7d6lCwg==}
+    dev: true
 
   /@testing-library/dom/7.31.2:
     resolution: {integrity: sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==}

@@ -1,0 +1,8 @@
+{
+  "extends": "@qameta/tsconfig/base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.tsx", "packages/**/*.js", "packages/**/*.json"],
+  "exclude": ["node_modules"]
+}
