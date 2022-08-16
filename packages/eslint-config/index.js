@@ -13,10 +13,6 @@ module.exports = {
     "prettier/@typescript-eslint",
   ],
   parser: "@typescript-eslint/parser",
-  parserOptions: {
-    project: "tsconfig.json",
-    sourceType: "module",
-  },
   plugins: [
     "eslint-plugin-no-null",
     "eslint-plugin-prefer-arrow",
