@@ -20,9 +20,6 @@
   },
   "homepage": "https://github.com/qameta/fe-core#readme",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "@qameta/tsconfig": "workspace:*",
     "@qameta/eslint-config": "workspace:*",
