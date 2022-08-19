@@ -2,9 +2,8 @@ name: Pubish GPR
 
 on:
   push:
-    branches:
-      - main
-      - 'release/**'
+    tags:
+      - "v*.*.*"
 
 jobs:
   publish-gpr:
