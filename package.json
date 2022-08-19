@@ -14,7 +14,7 @@
     "test": "echo \"no tests\"",
     "eslint": "eslint . --ext .ts,.tsx,.js"
   },
-  "author": "Vladimir Semyonov",
+  "author": "Qameta Software",
   "bugs": {
     "url": "https://github.com/qameta/fe-core/issues"
   },

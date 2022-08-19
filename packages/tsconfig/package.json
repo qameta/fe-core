@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vladimir Semyonov",
+  "author": "Qameta Software",
   "license": "ISC",
   "repository": "https://github.com/qameta/fe-core"
 }
