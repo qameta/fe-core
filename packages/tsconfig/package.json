@@ -2,9 +2,6 @@
   "name": "@qameta/tsconfig",
   "version": "0.3.0",
   "description": "Shared TSConfig for Qameta projects",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Qameta Software",
   "license": "ISC",
   "repository": "https://github.com/qameta/fe-core"
