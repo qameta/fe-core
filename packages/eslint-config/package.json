@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "author": "Qameta Software",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-import": "^2.22.1",

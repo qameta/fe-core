@@ -3,6 +3,6 @@
   "version": "0.3.0",
   "description": "Shared TSConfig for Qameta projects",
   "author": "Qameta Software",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "https://github.com/qameta/fe-core"
 }

@@ -11,7 +11,6 @@
     "url": "git+ssh://git@github.com/qameta/fe-core.git"
   },
   "scripts": {
-    "test": "echo \"no tests\"",
     "eslint": "eslint . --ext .ts,.tsx,.js"
   },
   "author": "Qameta Software",
@@ -19,7 +18,7 @@
     "url": "https://github.com/qameta/fe-core/issues"
   },
   "homepage": "https://github.com/qameta/fe-core#readme",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@qameta/tsconfig": "workspace:*",
     "@qameta/eslint-config": "workspace:*",
