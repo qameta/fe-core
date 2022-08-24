@@ -3,7 +3,7 @@ name: Pubish GPR
 on:
   push:
     tags:
-      - "v*"
+      - "*"
 
 jobs:
   publish-gpr:
