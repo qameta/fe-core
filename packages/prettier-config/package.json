@@ -1,0 +1,9 @@
+{
+  "name": "@qameta/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared prettier config for Qameta projects",
+  "main": "index.js",
+  "author": "Qameta Software",
+  "license": "MIT",
+  "repository": "https://github.com/qameta/fe-core"
+}

@@ -1,0 +1,1 @@
+# Qameta - Core frontend shared configs

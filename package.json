@@ -1,0 +1,27 @@
+{
+  "name": "@qameta/fe-core",
+  "version": "0.1.0",
+  "packageManager": "pnpm@6.32.3",
+  "description": "Qameta frontend shared configs monorepo",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qameta/fe-core.git"
+  },
+  "scripts": {
+    "eslint": "eslint . --ext .ts,.tsx,.js"
+  },
+  "author": "Qameta Software",
+  "bugs": {
+    "url": "https://github.com/qameta/fe-core/issues"
+  },
+  "homepage": "https://github.com/qameta/fe-core#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@qameta/tsconfig": "workspace:*",
+    "@qameta/eslint-config": "workspace:*",
+    "@rushstack/eslint-patch": "^1.1.1",
+    "@qameta/prettier-config": "workspace:*",
+    "eslint": "^7.17.0",
+    "typescript": "^4.3.5"
+  }
+}
