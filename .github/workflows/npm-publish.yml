@@ -18,6 +18,6 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.1
       - run: pnpm install
-      - run: pnpm publish -r --no-git-checks
+      - run: pnpm publish -r --no-git-checks --filter=!@qameta/fe-core --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}

@@ -1,5 +1,6 @@
 {
   "name": "@qameta/eslint-config",
+  "private": false,
   "version": "0.1.0",
   "description": "Shared eslint config for Qameta projects",
   "main": "index.js",
