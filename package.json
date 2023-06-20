@@ -1,7 +1,12 @@
 {
   "name": "@qameta/fe-core",
   "version": "0.1.0",
-  "packageManager": "pnpm@6.32.3",
+  "private": true,
+  "packageManager": "pnpm@8.6.3",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
   "description": "Qameta frontend shared configs monorepo",
   "repository": {
     "type": "git",
@@ -17,10 +22,12 @@
   "homepage": "https://github.com/qameta/fe-core#readme",
   "license": "MIT",
   "devDependencies": {
-    "@qameta/tsconfig": "workspace:*",
     "@qameta/eslint-config": "workspace:*",
-    "@rushstack/eslint-patch": "^1.1.1",
+    "@qameta/eslint-config-react": "workspace:*",
     "@qameta/prettier-config": "workspace:*",
+    "@qameta/tsconfig": "workspace:*",
+    "@rushstack/eslint-patch": "^1.1.1",
+    "@types/eslint": "^7.17.0",
     "eslint": "^7.17.0",
     "typescript": "^4.3.5"
   }

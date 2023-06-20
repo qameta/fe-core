@@ -1,5 +1,6 @@
 {
   "editor.codeActionsOnSave": ["source.formatDocument", "source.fixAll.eslint"],
   "editor.formatOnSave": true,
-  "eslint.lintTask.options": ". --resolve-plugins-relative-to node_modules/@qameta/eslint-config"
+  "eslint.lintTask.options": ". --resolve-plugins-relative-to node_modules/@qameta/eslint-config",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
