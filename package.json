@@ -13,7 +13,8 @@
     "url": "git+ssh://git@github.com/qameta/fe-core.git"
   },
   "scripts": {
-    "eslint": "eslint . --ext .ts,.tsx,.js"
+    "eslint": "eslint . --ext .ts,.tsx,.js",
+    "changeset:add": "pnpm changeset"
   },
   "author": "Qameta Software",
   "bugs": {
@@ -22,6 +23,8 @@
   "homepage": "https://github.com/qameta/fe-core#readme",
   "license": "MIT",
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.1",
     "@qameta/eslint-config": "workspace:*",
     "@qameta/eslint-config-react": "workspace:*",
     "@qameta/prettier-config": "workspace:*",
