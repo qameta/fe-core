@@ -1,3 +1,6 @@
+/**
+ * @type {import("eslint").Linter.Config}
+ */
 module.exports = {
   extends: [
     "eslint:recommended",
@@ -14,7 +17,17 @@ module.exports = {
     "eslint-plugin-jsdoc",
     "@typescript-eslint",
   ],
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx"],
+      rules: {
+        "no-unused-vars": "off",
+        "no-shadow": "off",
+      },
+    },
+  ],
   rules: {
+    "@typescript-eslint/no-shadow": ["error"],
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/array-type": [
       "error",
@@ -107,15 +120,11 @@ module.exports = {
     "@typescript-eslint/no-require-imports": "error",
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-unsafe-assignment": "off",
-    // TODO enable no-unsafe-member-access
-    "@typescript-eslint/no-unsafe-member-access": "off",
-    // TODO enable no-unsafe-call
-    "@typescript-eslint/no-unsafe-call": "off",
-    // TODO enable no-unsafe-return
-    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-member-access": "error",
+    "@typescript-eslint/no-unsafe-call": "error",
+    "@typescript-eslint/no-unsafe-return": "error",
     "@typescript-eslint/no-unused-expressions": "error",
-    // TODO enable no-unused-vars
-    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error", { args: "after-used" }],
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-var-requires": "error",
     "@typescript-eslint/prefer-for-of": "error",
@@ -176,6 +185,7 @@ module.exports = {
     "import/no-default-export": "error",
     "import/no-unassigned-import": "off",
     "import/order": ["error", { alphabetize: { order: "asc", caseInsensitive: true } }],
+    "import/no-duplicates": "error",
     "jsdoc/check-alignment": "error",
     "jsdoc/check-indentation": "error",
     "jsdoc/newline-after-description": "error",
