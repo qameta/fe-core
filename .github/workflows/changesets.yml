@@ -30,9 +30,6 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
 
-      - name: Setup npmrc file
-        run: echo "//registry.npmjs.org/:_authToken=${{ env.NPM_TOKEN }}" > .npmrc
-
       - name: Setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
