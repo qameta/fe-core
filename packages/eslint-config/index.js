@@ -35,35 +35,7 @@ module.exports = {
         default: "array",
       },
     ],
-    "@typescript-eslint/ban-types": [
-      "error",
-      {
-        types: {
-          Object: {
-            message: "Avoid using the `Object` type. Did you mean `object`?",
-          },
-          Function: {
-            message:
-              "Avoid using the `Function` type. Prefer a specific function type, like `() => void`.",
-          },
-          // eslint-disable-next-line id-blacklist
-          Boolean: {
-            message: "Avoid using the `Boolean` type. Did you mean `boolean`?",
-          },
-          // eslint-disable-next-line id-blacklist
-          Number: {
-            message: "Avoid using the `Number` type. Did you mean `number`?",
-          },
-          // eslint-disable-next-line id-blacklist
-          String: {
-            message: "Avoid using the `String` type. Did you mean `string`?",
-          },
-          Symbol: {
-            message: "Avoid using the `Symbol` type. Did you mean `symbol`?",
-          },
-        },
-      },
-    ],
+    "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/dot-notation": "error",
