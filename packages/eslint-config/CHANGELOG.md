@@ -1,5 +1,11 @@
 # @qameta/eslint-config
 
+## 0.1.2
+
+### Patch Changes
+
+- [#18](https://github.com/qameta/fe-core/pull/18) [`c384aef`](https://github.com/qameta/fe-core/commit/c384aef46f58786a652acbb6b91fad9185f08738) Thanks [@vdvukhzhilov](https://github.com/vdvukhzhilov)! - Simplify base eslint rules
+
 ## 0.1.1
 
 ### Patch Changes
