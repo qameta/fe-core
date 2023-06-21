@@ -1,7 +1,7 @@
 {
   "name": "@qameta/prettier-config",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shared prettier config for Qameta projects",
   "main": "index.js",
   "author": "Qameta Software",
