@@ -1,5 +1,11 @@
 # @qameta/eslint-config
 
+## 1.0.2
+
+### Patch Changes
+
+- [`ddbecf2`](https://github.com/qameta/fe-core/commit/ddbecf20fe74f14cd7840893e898a30ce5be1842) Thanks [@vdvukhzhilov](https://github.com/vdvukhzhilov)! - fix jsdoc rule
+
 ## 1.0.1
 
 ### Patch Changes
