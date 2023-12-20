@@ -1,7 +1,7 @@
 {
   "name": "@qameta/eslint-config-react",
   "private": false,
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Shared eslint config for Qameta React projects",
   "main": "index.js",
   "author": "Qameta Software",
