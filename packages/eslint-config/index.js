@@ -208,7 +208,16 @@ module.exports = {
         next: "return",
       },
     ],
-    "prefer-arrow/prefer-arrow-functions": "error",
+    "prefer-arrow-functions/prefer-arrow-functions": [
+      "error",
+      {
+        allowNamedFunctions: true,
+        classPropertiesAllowed: false,
+        disallowPrototype: true,
+        returnStyle: "unchanged",
+        singleReturnOnly: false,
+      },
+    ],
     "prefer-const": "error",
     "prefer-template": "error",
     "quote-props": ["error", "consistent-as-needed"],
