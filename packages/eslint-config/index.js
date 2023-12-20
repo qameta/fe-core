@@ -159,7 +159,7 @@ module.exports = {
     "import/no-duplicates": "error",
     "jsdoc/check-alignment": "error",
     "jsdoc/check-indentation": "error",
-    "jsdoc/newline-after-description": "error",
+    "jsdoc/tag-lines": ["error", "any", { startLines: 1 }],
     // TODO make max-classes-per-file equal 2
     "max-classes-per-file": ["error", 5],
     "max-len": [
@@ -207,7 +207,7 @@ module.exports = {
         next: "return",
       },
     ],
-    "prefer-arrow-functions/prefer-arrow-functions": [
+    "prefer-arrow/prefer-arrow-functions": [
       "error",
       {
         allowNamedFunctions: true,
