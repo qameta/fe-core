@@ -6,8 +6,5 @@
   "main": "index.js",
   "author": "Qameta Software",
   "license": "MIT",
-  "repository": "https://github.com/qameta/fe-core",
-  "devDependencies": {
-    "@types/prettier": "^2.7.3"
-  }
+  "repository": "https://github.com/qameta/fe-core"
 }

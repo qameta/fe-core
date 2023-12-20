@@ -23,15 +23,16 @@
   "homepage": "https://github.com/qameta/fe-core#readme",
   "license": "MIT",
   "devDependencies": {
-    "@changesets/changelog-github": "^0.4.8",
-    "@changesets/cli": "^2.26.1",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.1",
     "@qameta/eslint-config": "workspace:*",
     "@qameta/eslint-config-react": "workspace:*",
     "@qameta/prettier-config": "workspace:*",
     "@qameta/tsconfig": "workspace:*",
     "@rushstack/eslint-patch": "^1.1.1",
-    "@types/eslint": "^7.17.0",
-    "eslint": "^7.17.0",
-    "typescript": "^4.3.5"
+    "@types/eslint": "^8.56.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
   }
 }
