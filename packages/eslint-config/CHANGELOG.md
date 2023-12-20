@@ -1,5 +1,11 @@
 # @qameta/eslint-config
 
+## 1.0.3
+
+### Patch Changes
+
+- [`e43e1fc`](https://github.com/qameta/fe-core/commit/e43e1fc02eccd01533aa348b7da4ef1310ec4019) Thanks [@vdvukhzhilov](https://github.com/vdvukhzhilov)! - change to prefer-arrow-functions plugin
+
 ## 1.0.2
 
 ### Patch Changes
