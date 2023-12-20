@@ -1,5 +1,11 @@
 # @qameta/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- [#22](https://github.com/qameta/fe-core/pull/22) [`9fed61e`](https://github.com/qameta/fe-core/commit/9fed61edf9ddaa08db0f2067ad57238bea96abdf) Thanks [@vdvukhzhilov](https://github.com/vdvukhzhilov)! - "prettier/@typescript-eslint" has been merged into "prettier" in eslint-config-prettier 8.0.0. See: https://github.com/prettier/eslint-config-prettier/blob/main/CHANGELOG.md#version-800-2021-02-21
+
 ## 1.0.0
 
 ### Major Changes
