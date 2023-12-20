@@ -13,7 +13,7 @@
     "eslint-plugin-import": "^2",
     "eslint-plugin-jsdoc": "^46",
     "eslint-plugin-no-null": "^1",
-    "eslint-plugin-prefer-arrow": "^1"
+    "eslint-plugin-prefer-arrow-functions": "^3"
   },
   "devDependencies": {
     "eslint": "^8",

@@ -11,7 +11,7 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: [
     "eslint-plugin-no-null",
-    "eslint-plugin-prefer-arrow",
+    "prefer-arrow-functions",
     "eslint-plugin-import",
     "eslint-plugin-jsdoc",
     "@typescript-eslint",
@@ -207,7 +207,7 @@ module.exports = {
         next: "return",
       },
     ],
-    "prefer-arrow/prefer-arrow-functions": [
+    "prefer-arrow-functions/prefer-arrow-functions": [
       "error",
       {
         allowNamedFunctions: true,
